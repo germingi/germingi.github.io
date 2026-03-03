@@ -1,12 +1,17 @@
 <template>
-  <div class="portfolio-tile">
-    <img :src="img" :alt="name" />
-    <div class="label">{{ name }}</div>
-  </div>
+  <router-link :to="to" class="portfolio-link">
+    <div class="portfolio-tile">
+      <img :src="img" :alt="name" />
+      <div class="label">{{ name }}</div>
+    </div>
+  </router-link>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ name: string; img: string }>()
+const props = defineProps<{ name: string; img: string; to: string }>()
+
+// we no longer provide a default here; router handles unknown routes
+const to = props.to
 </script>
 
 <style scoped>
@@ -38,5 +43,12 @@ const props = defineProps<{ name: string; img: string }>()
   font-weight: 600;
   padding: 0.25rem 0;
   background: rgba(255, 255, 255, 0.7);
+}
+
+.portfolio-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 </style>
