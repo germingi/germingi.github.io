@@ -12,8 +12,8 @@ const props = defineProps<{ name: string; img: string }>()
 <style scoped>
 .portfolio-tile {
   position: relative;
-  width: 20rem;
-  height: 15rem; /* fixed aspect ratio for tile */
+  width: 100%;
+  aspect-ratio: 4 / 3;
   border-radius: 0.5rem;
   overflow: hidden;
 }
