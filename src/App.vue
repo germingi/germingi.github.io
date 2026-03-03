@@ -17,6 +17,5 @@ body,
 body {
   background-color: rgb(255, 162, 109);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
 }
 </style>
