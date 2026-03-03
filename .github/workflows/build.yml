@@ -27,6 +27,9 @@ jobs:
       - name: Audit dependencies
         run: yarn npm audit --severity moderate
 
+      - name: Run unit tests
+        run: yarn test:unit --run
+
       - name: Build
         run: yarn build
       - name: Upload Pages artifact
