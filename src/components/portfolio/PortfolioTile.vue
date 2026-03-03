@@ -13,28 +13,32 @@ const props = defineProps<{ name: string; img: string }>()
 
 <style scoped>
 .portfolio-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
+  position: relative;
   width: 20rem;
-  /* ensure tile doesn't grow with image */
+  height: 15rem; /* fixed aspect ratio for tile */
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
 .portfolio-tile img {
-  max-width: 100%;
-  max-height: 8rem;
-  height: auto;
-  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
 .label {
-  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
   font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.25rem 0;
+  background: rgba(255, 255, 255, 0.7);
 }
 </style>
