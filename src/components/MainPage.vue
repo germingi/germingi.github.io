@@ -10,7 +10,9 @@
 
 <style scoped>
 .main-page {
-  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 h1 {
@@ -22,6 +24,6 @@ h1 {
 hr {
   margin: 1rem 0;
   border: none;
-  border-top: 2px solid #444;
+  border-top: 0.125rem solid #444;
 }
 </style>
