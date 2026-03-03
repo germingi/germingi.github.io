@@ -1,5 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainPage from './components/MainPage.vue'
+</script>
 
-<template>Hello World!</template>
+<template>
+  <MainPage />
+</template>
 
-<style scoped></style>
+<style>
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 162, 109);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+</style>
