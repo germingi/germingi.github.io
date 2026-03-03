@@ -2,11 +2,13 @@
   <div class="main-page">
     <h1>germingi.com</h1>
     <hr />
-    hello world!
+    <PortfolioGrid />
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PortfolioGrid from './portfolio/PortfolioGrid.vue'
+</script>
 
 <style scoped>
 .main-page {
