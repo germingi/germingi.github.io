@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import MainPage from './components/MainPage.vue'
+// router-view will display whatever component matches the current route
 </script>
 
 <template>
-  <MainPage />
+  <router-view />
 </template>
 
 <style>

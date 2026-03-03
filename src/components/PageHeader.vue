@@ -1,6 +1,8 @@
 <template>
   <div class="page-header">
-    <h1>germingi.com</h1>
+    <h1>
+      <router-link to="/" class="home-link">germingi.com</router-link>
+    </h1>
     <hr />
   </div>
 </template>
@@ -17,6 +19,14 @@
 h1 {
   text-align: left;
   margin: 0;
+}
+
+.home-link {
+  color: inherit;
+  text-decoration: none;
+}
+.home-link:hover {
+  text-decoration: underline;
 }
 
 hr {
