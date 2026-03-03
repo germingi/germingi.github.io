@@ -1,9 +1,6 @@
 <template>
   <div class="portfolio-grid">
     <PortfolioTile name="vue3 video player" :img="tileImage" />
-    <PortfolioTile name="vue3 video player" :img="tileImage" />
-    <PortfolioTile name="vue3 video player" :img="tileImage" />
-    <PortfolioTile name="vue3 video player" :img="tileImage" />
   </div>
 </template>
 
