@@ -14,6 +14,6 @@ import vue3VideoPlayerImage from '@/assets/vu3-video-player.png'
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   gap: 1rem;
-  margin-top: 1rem;
+  padding: 0 1rem;
 }
 </style>
