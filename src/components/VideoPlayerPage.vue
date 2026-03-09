@@ -1,8 +1,6 @@
 <template>
   <PageHeader />
-  <div class="video-player-page">
-    hello world
-  </div>
+  <div class="video-player-page">hello world</div>
 </template>
 
 <script setup lang="ts">
