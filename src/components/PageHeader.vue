@@ -13,7 +13,6 @@
 .page-header {
   max-width: 50rem;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 h1 {
