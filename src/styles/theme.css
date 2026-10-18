@@ -2,4 +2,8 @@
   --color-background: rgb(211, 211, 198);
   --color-text: rgb(21, 10, 43);
   --color-tile-label-background: rgba(255, 255, 255, 0.7);
+
+  --color-accent-1: rgb(204, 165, 38);
+  --color-accent-2: rgb(206, 97, 47);
+  --color-accent-3: rgb(204, 48, 51);
 }
