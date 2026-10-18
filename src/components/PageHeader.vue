@@ -31,6 +31,6 @@ h1 {
 hr {
   margin: 1rem 0;
   border: none;
-  border-top: 0.125rem solid var(--text-color);
+  border-top: 0.125rem solid var(--color-text);
 }
 </style>

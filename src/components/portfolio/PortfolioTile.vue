@@ -42,7 +42,7 @@ const to = props.to
   font-size: 0.9rem;
   font-weight: 600;
   padding: 0.25rem 0;
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--color-tile-label-background);
 }
 
 .portfolio-link {
