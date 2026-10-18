@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '../components/MainPage.vue'
-import VideoPlayerPage from '../components/VideoPlayerPage.vue'
+import VideoPlayerPage from '../components/projects/VideoPlayerPage.vue'
 
 const routes = [
   { path: '/', component: MainPage },
