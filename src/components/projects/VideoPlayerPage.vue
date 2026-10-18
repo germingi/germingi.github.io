@@ -4,7 +4,7 @@
 </template>
 
 <script setup lang="ts">
-import PageHeader from './PageHeader.vue'
+import PageHeader from '../PageHeader.vue'
 </script>
 
 <style scoped>
