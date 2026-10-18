@@ -9,9 +9,6 @@
 
 <script setup lang="ts">
 const props = defineProps<{ name: string; img: string; to: string }>()
-
-// we no longer provide a default here; router handles unknown routes
-const to = props.to
 </script>
 
 <style scoped>
