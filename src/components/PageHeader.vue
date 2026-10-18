@@ -3,7 +3,11 @@
     <h1>
       <router-link to="/" class="home-link">germingi.com</router-link>
     </h1>
-    <hr />
+    <div class="divider">
+      <div class="first" />
+      <div />
+      <div />
+    </div>
   </div>
 </template>
 
@@ -18,6 +22,7 @@
 h1 {
   text-align: left;
   margin: 0;
+  font-weight: 300;
 }
 
 .home-link {
@@ -28,9 +33,22 @@ h1 {
   text-decoration: underline;
 }
 
-hr {
+.divider {
   margin: 1rem 0;
-  border: none;
-  border-top: 0.125rem solid var(--text-color);
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.divider div {
+  flex: 1;
+}
+.divider div:nth-child(1) {
+  background-color: var(--color-accent-1);
+}
+.divider div:nth-child(2) {
+  background-color: var(--color-accent-2);
+}
+.divider div:nth-child(3) {
+  background-color: var(--color-accent-3);
 }
 </style>

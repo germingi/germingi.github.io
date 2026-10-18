@@ -7,10 +7,6 @@
 </template>
 
 <style>
-:root {
-  --text-color: #1d1d35;
-}
-
 html,
 body,
 #app {
@@ -19,9 +15,9 @@ body,
 }
 
 body {
-  background-color: rgb(255, 162, 109);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text-color);
+  background-color: var(--color-background);
+  font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-text);
   box-sizing: border-box;
   padding: 1rem;
 }
