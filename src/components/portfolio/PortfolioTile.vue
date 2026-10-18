@@ -40,7 +40,7 @@ const to = props.to
   width: 100%;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0.25rem 0;
   background: var(--color-tile-label-background);
 }

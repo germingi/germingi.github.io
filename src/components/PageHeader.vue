@@ -18,6 +18,7 @@
 h1 {
   text-align: left;
   margin: 0;
+  font-weight: 300;
 }
 
 .home-link {

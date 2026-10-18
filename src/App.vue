@@ -16,7 +16,7 @@ body,
 
 body {
   background-color: var(--color-background);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-text);
   box-sizing: border-box;
   padding: 1rem;
