@@ -27,6 +27,12 @@ jobs:
       - name: Audit dependencies
         run: yarn npm audit --severity moderate
 
+      - name: Linting
+        run: npx eslint .
+
+      - name: Formatting
+        run: npx prettier --check src/
+
       - name: Build
         run: yarn build
 
