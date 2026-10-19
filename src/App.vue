@@ -16,7 +16,9 @@ body,
 
 body {
   background-color: var(--color-background);
-  font-family: 'Cascadia Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:
+    'Cascadia Code', 'Cascadia Mono', 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono', Consolas,
+    monospace;
   color: var(--color-text);
   box-sizing: border-box;
   padding: 1rem;
