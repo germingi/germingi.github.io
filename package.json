@@ -17,7 +17,7 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
-    "@germingi/vue3-video-player": "1.2.2",
+    "@germingi/vue3-video-player": "1.2.3",
     "vue": "^3.5.28",
     "vue-router": "^5.0.2"
   },
