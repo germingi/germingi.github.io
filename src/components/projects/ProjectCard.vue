@@ -27,6 +27,12 @@ h2 {
   margin: 0;
   margin-bottom: 0.5rem;
 }
+hr {
+  margin: 1.5rem 0;
+  background: linear-gradient(to right, var(--color-accent-1), var(--color-accent-3));
+  height: 2px;
+  border: 0;
+}
 
 .project-card {
   background-color: #eeeeee;
