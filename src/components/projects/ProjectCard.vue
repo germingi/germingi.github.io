@@ -13,7 +13,6 @@
 <script setup lang="ts">
 const props = defineProps<{
   name: string
-  img: string
   repoUrl: string
   shortDescription: string
 }>()
