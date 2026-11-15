@@ -21,6 +21,7 @@ import vue3VideoPlayerImage from '@/assets/vu3-video-player.png'
 <style scoped>
 .video-player-page {
   max-width: 50rem;
-  margin: 2rem auto;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 }
 </style>
