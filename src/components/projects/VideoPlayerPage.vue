@@ -4,10 +4,14 @@
     <ProjectCard
       name="vue3 video player"
       repoUrl="https://github.com/germingi/vue3-video-player"
-      shortDescription="An example video player built with Vue 3."
-      :img="vue3VideoPlayerImage"
+      shortDescription="A Vue 3 video player with subtitle support."
     >
-      Example
+      <div class="video-player">
+        <VideoPlayer
+          video-url="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+          title="Big Buck Bunny"
+        />
+      </div>
     </ProjectCard>
   </div>
 </template>
@@ -15,7 +19,9 @@
 <script setup lang="ts">
 import PageHeader from '../PageHeader.vue'
 import ProjectCard from './ProjectCard.vue'
-import vue3VideoPlayerImage from '@/assets/vu3-video-player.png'
+
+import { VideoPlayer } from '@germingi/vue3-video-player'
+import '@germingi/vue3-video-player/style.css'
 </script>
 
 <style scoped>
@@ -23,5 +29,10 @@ import vue3VideoPlayerImage from '@/assets/vu3-video-player.png'
   max-width: 50rem;
   margin: 0 auto;
   padding-bottom: 1rem;
+}
+.video-player {
+  color: var(--color-card);
+  width: 80%;
+  margin: 2rem auto;
 }
 </style>
