@@ -35,8 +35,8 @@ hr {
 }
 
 .project-card {
-  background-color: #eeeeee;
-  border: 1px solid #ccc;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-card-border);
   border-radius: 0.5rem;
   padding: 1rem;
 }
@@ -54,10 +54,10 @@ hr {
 }
 .project-card-header a {
   font-size: 0.9rem;
-  color: #777777;
+  color: var(--color-link);
 }
 .project-card-header a:hover {
-  color: #afafaf;
+  color: var(--color-link-hover);
 }
 
 @media (max-width: 640px) {
