@@ -3,7 +3,7 @@
     <div class="project-card-header">
       <div>
         <h2>{{ props.name }}</h2>
-        <a :href="props.repoUrl" target="_blank" rel="noopener noreferrer">link to repo</a>
+        <a :href="props.repoUrl"><i>check out the repo</i></a>
         <p>{{ props.shortDescription }}</p>
       </div>
       <img :src="props.img" :alt="props.name" />
@@ -24,7 +24,8 @@ const props = defineProps<{
 
 <style scoped>
 h2 {
-  margin-top: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .project-card {
@@ -33,6 +34,7 @@ h2 {
   border-radius: 0.5rem;
   padding: 1rem;
 }
+
 .project-card-header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,13 @@ h2 {
   object-fit: cover;
   max-height: 10rem;
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.2));
+}
+.project-card-header a {
+  font-size: 0.9rem;
+  color: #777777;
+}
+.project-card-header a:hover {
+  color: #afafaf;
 }
 
 @media (max-width: 640px) {

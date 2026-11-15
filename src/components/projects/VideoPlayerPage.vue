@@ -3,7 +3,7 @@
   <div class="video-player-page">
     <ProjectCard
       name="vue3 video player"
-      repoUrl="https://github.com/user/repo"
+      repoUrl="https://github.com/germingi/vue3-video-player"
       shortDescription="An example video player built with Vue 3."
       :img="vue3VideoPlayerImage"
     >
