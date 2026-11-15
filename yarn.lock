@@ -788,15 +788,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@germingi/vue3-video-player@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@germingi/vue3-video-player@npm:1.2.0"
+"@germingi/vue3-video-player@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@germingi/vue3-video-player@npm:1.2.2"
   dependencies:
     "@germingi/scroll-and-fade-text": "npm:^1.0.6"
     "@heroicons/vue": "npm:^2.2.0"
     sanitize-html: "npm:^2.14.0"
     vue: "npm:^3.5.13"
-  checksum: 10c0/0f332aed6527224bf593986cd14a38b32e469cccab86a6a9266cca2242d90f1d7da234bf51ebc88a26f14c156bfbdf2309fdb9d1063e04d2257ebf7868ec0420
+  checksum: 10c0/aea0952efb2a2b34dcb240cf3c265c9f9eca73521e40c5417f8f082b1f021ad64bf3242eb4647ea0835e0764f9f66a048c340ac743ad52656f20266a6bcb459c
   languageName: node
   linkType: hard
 
@@ -3377,7 +3377,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "germingi.github.io@workspace:."
   dependencies:
-    "@germingi/vue3-video-player": "npm:^1.2.0"
+    "@germingi/vue3-video-player": "npm:1.2.2"
     "@tsconfig/node24": "npm:^24.0.4"
     "@types/jsdom": "npm:^27.0.0"
     "@types/node": "npm:^24.10.13"
